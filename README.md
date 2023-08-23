@@ -1,3 +1,7 @@
+## Environment
+- java-8
+- mysql
+- visual studio code
 ## Init project
 - ctrl + shift + p => enter JAVA: Create New Project
 
