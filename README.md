@@ -9,6 +9,10 @@
 - download jdbc driver
 - ctrl + shift + p => enter JAVA: Configure Classpath => go to Referenced Libraries => click add path driver
 
+## reference
+- https://code.visualstudio.com/docs/java/java-gui
+- https://code2care.org/tutorial/jdbc-connection-with-mysql-driver-example-vs-code-troubleshooting
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
