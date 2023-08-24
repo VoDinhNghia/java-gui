@@ -3,18 +3,19 @@ package gui;
 import java.awt.*;
 import java.awt.event.*;
 
-import gui.actions.CaculatorAction;
+import constants.TextGui;
+import gui.actions.CalculatorAction;
 
 public class GuiMain extends Frame {
     public GuiMain() {
-        Button btn = new Button("Calculator");
+        Button btn = new Button(TextGui.btnCalculator);
         btn.setBounds(50, 50, 50, 50);
         add(btn);
         setSize(400, 500);
-        setTitle("Caculator program");
+        setTitle(TextGui.titleMain);
         setLayout(new FlowLayout());
         setVisible(true);
-        btn.addActionListener(new CaculatorAction());
+        btn.addActionListener(new CalculatorAction());
         addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent we) {
                 dispose();
