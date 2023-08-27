@@ -28,8 +28,6 @@ public class UsersTable {
             stmt.executeUpdate(sql);
             System.out.println("Create table " + TableName.users + " success.");
             conn.close();
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+        } catch (Exception e) { }
     }
 }
